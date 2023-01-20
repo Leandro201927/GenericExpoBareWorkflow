@@ -1,4 +1,4 @@
-package com.workermultithreadingsample;
+package com.genericappname;
 import expo.modules.ReactActivityDelegateWrapper;
 
 import com.facebook.react.ReactActivity;
@@ -14,7 +14,7 @@ public class MainActivity extends ReactActivity {
    */
   @Override
   protected String getMainComponentName() {
-    return "WorkerMultithreadingSample";
+    return "GenericAppName";
   }
 
   /**

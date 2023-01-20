@@ -22,7 +22,7 @@ if linkage != nil
   use_frameworks! :linkage => linkage.to_sym
 end
 
-target 'WorkerMultithreadingSample' do
+target 'GenericAppName' do
   use_expo_modules!
   post_integrate do |installer|
     begin
@@ -52,7 +52,7 @@ target 'WorkerMultithreadingSample' do
     :app_path => "#{Pod::Config.instance.installation_root}/.."
   )
 
-  target 'WorkerMultithreadingSampleTests' do
+  target 'GenericAppNameTests' do
     inherit! :complete
     # Pods for testing
   end

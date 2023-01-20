@@ -93,9 +93,9 @@ android {
 
     compileSdkVersion rootProject.ext.compileSdkVersion
 
-    namespace "com.workermultithreadingsample"
+    namespace "com.genericappname"
     defaultConfig {
-        applicationId "com.workermultithreadingsample"
+        applicationId "com.genericappname"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
