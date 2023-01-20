@@ -17,6 +17,9 @@ import {
   View,
 } from 'react-native';
 
+import Constants from 'expo-constants';
+console.log('just a try', Constants.systemFonts); // if this is logged in your Metro console, you have implemented Expo successfully.
+
 import {
   Colors,
   DebugInstructions,
