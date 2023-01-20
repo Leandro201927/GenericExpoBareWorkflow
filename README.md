@@ -1,6 +1,6 @@
-# React Native : Expo Bare Workflow project
+# React Native v0.71.1 : Expo Bare Workflow project
 
-## Antes de todo
+## Before start
 1. Deberás tener corriendo NodeJS v16 o v18 por lo menos.
 2. Deberás ver qué versión de Java deberás tener instalada vs la versión del gradle que tengas en el proyecto.
 (Para ver qué version tienes, debes ir a 'android\gradle\wrapper\gradle-wrapper.properties' y buscar el atributo 'distributionUrl')
